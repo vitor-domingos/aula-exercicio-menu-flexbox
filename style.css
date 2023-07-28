@@ -1,0 +1,57 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+img:nth-child(2) {
+  position: relative;
+  bottom: 12px;
+left: 2px;
+}
+
+img:last-child {
+  width: 0;
+}
+
+.menu .fundo {
+  color: #ffffff;
+  background-color: #5bc241;
+}
+
+.propriedades-das-lis {
+  font-size: 15px;
+  line-height: 17.63px;
+}
+
+.fundo:nth-last-child(1) {
+  font-weight: 300;
+  border-radius: 10px;
+  width: 85px;
+  height: 18px;
+  padding: 15px;
+  position: relative;
+  top: 6px;
+}
+
+.fundo:nth-child(2){
+width: 42px;
+height: 18px;
+padding: 15px;
+position: relative;
+top: 4px;
+}
+
+li:nth-child(n+1):nth-child(-n+5) {
+  font-weight: 400px;
+}
+
+.menu {
+  display: flex;
+  margin-top: 10px;
+}
+
+.menu li {
+  padding: 20px;
+}
