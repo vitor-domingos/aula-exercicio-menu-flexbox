@@ -8,7 +8,7 @@
 img:nth-child(2) {
   position: relative;
   bottom: 12px;
-left: 2px;
+  left: 2px;
 }
 
 img:last-child {
@@ -35,15 +35,15 @@ img:last-child {
   top: 6px;
 }
 
-.fundo:nth-child(2){
-width: 42px;
-height: 18px;
-padding: 15px;
-position: relative;
-top: 4px;
+.fundo:nth-child(2) {
+  width: 42px;
+  height: 18px;
+  padding: 15px;
+  position: relative;
+  top: 4px;
 }
 
-li:nth-child(n+1):nth-child(-n+5) {
+li:nth-child(n + 1):nth-child(-n + 5) {
   font-weight: 400px;
 }
 
